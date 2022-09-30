@@ -15,6 +15,8 @@
 
 This debugger implements the Debug Adapter Protocol: [debugProtocol.json](https://github.com/microsoft/vscode-debugadapter-node/blob/master/debugProtocol.json)
 
+This repo contains last version compatible with python 3.6 with backported bugfix.
+
 ## `debugpy` CLI Usage
 ### Debugging a script file
 To run a script file with debugging enabled, but without waiting for the client to attach (i.e. code starts executing immediately):
